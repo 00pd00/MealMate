@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 
 const Header = () => {
     let [btnName, setbtnName] = useState(["Login"])
-    const status = OnlineStatus()
+    const status = OnlineStatus() 
 
     const {LoggedinUser} = useContext(UserContext)
 
